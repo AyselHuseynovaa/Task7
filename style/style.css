@@ -6,29 +6,104 @@
 }
 
 body {
+  color: white;
   font-family: "Times New Roman", Times, serif;
 }
 
-header .navbar .logo {
-  font-size: 40px;
-  color: #5555ca;
+body header .row {
+  margin-right: 0px;
+  background-color: black;
+  opacity: 0.89;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding-top: 29px;
+  padding-bottom: 22px;
 }
 
-header .list li .link {
-  text-decoration: underline;
+body header .row .left-col .logo {
+  padding-left: 20px;
 }
 
-header .list li a {
-  font-size: 24px;
+body header .row .left-col .logo h1 {
+  font-weight: 600;
 }
 
-header img {
-  height: 800px;
+body header .row .center-col a {
+  margin-right: 5px;
+  font-size: 25px;
+  color: white;
 }
 
-header h4 {
-  text-transform: uppercase;
+body header .row .center-col a:nth-child(6) {
+  margin-right: 0;
+}
+
+body header .row .right-col {
+  padding-top: 13px;
+}
+
+body header .row .right-col img {
+  width: 26px;
+}
+
+body main .carousel-caption {
+  padding-bottom: 26rem;
+}
+
+body main .carousel-caption h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+body main .carousel-caption p {
   font-size: 50px;
-  padding-bottom: 20rem;
+  font-weight: 600;
+}
+
+body main .carousel-caption .btn {
+  border: 2px solid white;
+  background-color: white;
+}
+
+body main .carousel-caption .btn a {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+
+body footer {
+  padding-top: 20px;
+  background-color: black;
+  opacity: 0.89;
+  height: 200px;
+}
+
+body footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .content ul {
+  list-style: none;
+}
+
+body footer .content ul li img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+body footer .content ul li a {
+  font-size: 22px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
