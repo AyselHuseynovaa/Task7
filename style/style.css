@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header .navbar .logo {
+  font-size: 40px;
+  color: #5555ca;
+}
+
+header .list li .link {
+  text-decoration: underline;
+}
+
+header .list li a {
+  font-size: 24px;
+}
+
+header img {
+  height: 800px;
+}
+
+header h4 {
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-bottom: 20rem;
+}
+/*# sourceMappingURL=style.css.map */
